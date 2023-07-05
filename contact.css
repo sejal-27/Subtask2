@@ -1,17 +1,54 @@
-.head{
+.head {
+  text-align: center;
+  text-shadow: 20px;
+  background-color: rgb(0, 68, 88);
+  color: white;
+  font-size: 50px;
+  font-weight: 40px;
+}
+#form {
+  background-color: rgb(196, 233, 255);
+  color: black;
+}
+body {
+  background-image: url("background.jpg");
+  height: 100%;
+  background-size: cover;
+}
+h3 {
+    text-align:center;
+  color: whitesmoke;
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 20px;
+}
+.b{
+    order: 1;
+}
+.c{
+    order: 2;
+    background-color:rgb(0, 68, 88)  ;
     text-align: center;
-    text-shadow: 20px;
-    background-color:rgb(0, 68, 88);
-    color: white;
 }
-.contact{
-    column-count: 2;
-    column-gap: 50px;
-    column-rule-style: solid;
-    column-rule-color: white;
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-content: center;
 }
-body{
-    background-image: url("background.jpg");
-    height: 100%;
-    background-size: cover;
-}
+@media (max-width: 800px) {
+  .flex_container {
+    flex-direction: column;}
+  }
+  .c a{
+    font-size: 30px;
+    font-weight: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white ;
+  }
+  .c a:hover{
+    background-color:white ;
+    color: black;
+  }
