@@ -3,15 +3,106 @@
   text-shadow: 20px;
   background-color: rgb(0, 68, 88);
   color: white;
+<<<<<<< HEAD
 }
 .contact {
   column-count: 2;
   column-gap: 50px;
   column-rule-style: solid;
   column-rule-color: white;
+=======
+  font-size: 50px;
+  font-weight: 40px;
+  animation-name: nameanimate;
+    animation-duration: 4s;
+}
+#form {
+  background-color: rgb(196, 233, 255);
+  color: black;
+>>>>>>> 71f1522434c22d3afa2aef8c48b9648cd3cccb5e
 }
 body {
   background-image: url("background.jpg");
   height: 100%;
   background-size: cover;
 }
+<<<<<<< HEAD
+=======
+h3 {
+    text-align:center;
+  color: whitesmoke;
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 20px;
+}
+.b{
+    order: 1;
+}
+.c{
+    order: 2;
+    background-color:rgb(0, 68, 88)  ;
+    text-align: center;
+}
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-content: center;
+}
+  .c a{
+    font-size: 30px;
+    font-weight: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white ;
+  }
+  .c a:hover{
+    background-color:white ;
+    color: black;
+  }
+  .button {
+  background-color:rgb(0, 68, 88);
+  border:10px black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  margin-left: 140px;
+  transition-duration: 0.4s;
+  }
+  .button:hover{
+    box-shadow: 20px black;
+    color: white;
+    background-color: rgb(14, 43, 14);
+  }
+  @keyframes nameanimate {
+  from {background-color: white;}
+  to {background-color: rgb(0, 68, 88)}
+}
+input[type=text] {
+  border: 2px solid rgb(0, 68, 88);
+  border-radius: 4px;
+}
+input[type=email] {
+  border: 2px solid rgb(0, 68, 88);
+  border-radius: 4px;
+}
+input[type=number] {
+  border: 2px solid rgb(0, 68, 88);
+  border-radius: 4px;
+}
+input[type=text]:focus{
+  background-color: rgb(0, 68, 88);
+  color: aliceblue;
+}
+input[type=email]:focus{
+  background-color: rgb(0, 68, 88);
+  color: aliceblue;
+}
+input[type=number]:focus{
+  background-color: rgb(0, 68, 88);
+  color: aliceblue;
+}
+
+
+>>>>>>> 71f1522434c22d3afa2aef8c48b9648cd3cccb5e
