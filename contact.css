@@ -3,14 +3,6 @@
   text-shadow: 20px;
   background-color: rgb(0, 68, 88);
   color: white;
-<<<<<<< HEAD
-}
-.contact {
-  column-count: 2;
-  column-gap: 50px;
-  column-rule-style: solid;
-  column-rule-color: white;
-=======
   font-size: 50px;
   font-weight: 40px;
   animation-name: nameanimate;
@@ -19,15 +11,12 @@
 #form {
   background-color: rgb(196, 233, 255);
   color: black;
->>>>>>> 71f1522434c22d3afa2aef8c48b9648cd3cccb5e
 }
 body {
   background-image: url("background.jpg");
   height: 100%;
   background-size: cover;
 }
-<<<<<<< HEAD
-=======
 h3 {
     text-align:center;
   color: whitesmoke;
@@ -105,4 +94,3 @@ input[type=number]:focus{
 }
 
 
->>>>>>> 71f1522434c22d3afa2aef8c48b9648cd3cccb5e
