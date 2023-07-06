@@ -11,6 +11,11 @@
 #form {
   background-color: rgb(196, 233, 255);
   color: black;
+  height: 200px;
+  width: 400px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight:5px;
 }
 body {
   background-image: url("background.jpg");
@@ -32,6 +37,9 @@ h3 {
     order: 2;
     background-color:rgb(0, 68, 88)  ;
     text-align: center;
+    padding: 30px;
+    height: 140px;
+    padding-top: 40px;
 }
 .flex_container {
   display: flex;
@@ -51,7 +59,7 @@ h3 {
     color: black;
   }
   .button {
-  background-color:rgb(0, 68, 88);
+    background-color:rgb(0, 68, 88);
   border:10px black;
   color: white;
   padding: 15px 32px;
@@ -71,26 +79,86 @@ h3 {
 input[type=text] {
   border: 2px solid rgb(0, 68, 88);
   border-radius: 4px;
+  transition: 0.5s ease-in-out;
+  width: 60%;
+  background-image: url(person.jpg);
+  background-size: 19px 20px;
+  background-repeat: no-repeat;
+  padding: 5px;
+  padding-left: 30px;
+  box-sizing: border-box;
 }
 input[type=email] {
   border: 2px solid rgb(0, 68, 88);
   border-radius: 4px;
+  width: 60%;
+  transition: 0.5s ease-in-out;
+  background-image: url(call.png);
+  background-size: 19px 20px;
+  background-repeat: no-repeat;
+  padding: 5px;
+  padding-left: 30px;
+  box-sizing: border-box;
 }
 input[type=number] {
   border: 2px solid rgb(0, 68, 88);
   border-radius: 4px;
-}
+  width:60%;
+  transition: 0.5s ease-in-out;
+   background-image: url(email.png);
+  background-size: 19px 20px;
+  background-repeat: no-repeat;
+  padding: 5px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  }
 input[type=text]:focus{
   background-color: rgb(0, 68, 88);
   color: aliceblue;
+   cursor: pointer;
+   width: 100%;
+   
 }
 input[type=email]:focus{
   background-color: rgb(0, 68, 88);
   color: aliceblue;
+   cursor:pointer;
+   width:100%
 }
 input[type=number]:focus{
   background-color: rgb(0, 68, 88);
   color: aliceblue;
+   cursor: pointer;
+   width: 100%;
+}
+
+input[type=button]{
+  cursor: pointer;
+}
+select{
+  border: 2px solid rgb(0, 68, 88);
+  border-radius: 4px;
+  width:60%;
+  transition: 0.5s ease-in-out;
+  
+}
+select:hover{
+  background-color:  rgb(0, 68, 88);
+  color: aliceblue;
+  width: 100%;
+  
+}
+textarea{
+   border: 2px solid rgb(0, 68, 88);
+  border-radius: 4px;
+  width:60%;
+  transition: 0.5s ease-in-out;
+
+}
+textarea:hover{
+  background-color:  rgb(0, 68, 88);
+  color: aliceblue;
+  width: 100%;
 }
 
 
